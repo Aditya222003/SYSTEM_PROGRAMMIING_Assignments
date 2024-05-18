@@ -1,0 +1,8 @@
+load m
+load 10
+add 15
+load 20
+add 25
+load 20
+add 30
+END

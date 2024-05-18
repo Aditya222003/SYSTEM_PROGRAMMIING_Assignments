@@ -1,0 +1,14 @@
+MACRO ABC
+    load p
+    add q
+MEND
+MACRO XYZ &a , &b , &c
+    load x
+    add &a
+    sub &c
+    mult y
+    store &b
+MEND
+ABC
+XYZ 10 , 11 , 12
+END
